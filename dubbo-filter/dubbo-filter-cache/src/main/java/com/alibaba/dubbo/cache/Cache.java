@@ -17,7 +17,7 @@
 package com.alibaba.dubbo.cache;
 
 /**
- * Cache
+ *  Cache
  */
 public interface Cache {
 

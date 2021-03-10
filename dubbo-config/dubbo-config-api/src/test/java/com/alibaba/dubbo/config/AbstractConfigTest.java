@@ -40,7 +40,7 @@ public class AbstractConfigTest {
     @Test
     public void testAppendProperties1() throws Exception {
         try {
-            System.setProperty("dubbo.properties.i", "1");
+            System.setProperty(" dubbo.properties.i", "1");
             System.setProperty("dubbo.properties.c", "c");
             System.setProperty("dubbo.properties.b", "2");
             System.setProperty("dubbo.properties.d", "3");
